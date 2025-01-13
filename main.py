@@ -1,5 +1,3 @@
-import os
-
 def generate_report(letter_count_dict: dict, word_count: int, file_path: str):
     with open("report.txt", "w") as f:
         f.write(f"--- Begin report of {file_path} ---\n")
